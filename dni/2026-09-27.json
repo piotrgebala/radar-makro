@@ -1,0 +1,129 @@
+{
+ "updated": "27.09.2026, 23:00",
+ "next": "codziennie ok. 6:52 czasu polskiego",
+ "signals": [
+  {
+   "name": "Spread obligacji wysokiego ryzyka",
+   "sub": "dodatkowa rentowność obligacji słabszych firm ponad obligacje USA",
+   "value": "2,80 pp",
+   "date": "24.09",
+   "threshold": "> 4,0 pp",
+   "status": "ok",
+   "note": "spokój; najwęższe 10% historii",
+   "source": "FRED BAMLH0A0HYM2"
+  },
+  {
+   "name": "Krzywa 10 lat minus 2 lata",
+   "sub": "alarm, gdy rośnie, bo spadają 2-latki",
+   "value": "+0,30 pp",
+   "date": "25.09",
+   "threshold": "+0,5 pp w 3 mies. przy spadku 2-latek",
+   "status": "ok",
+   "note": "10-latki 5,17%, 2-latki 4,87%; rynek wycenia podwyżki",
+   "source": "FRED T10Y2Y, DGS2"
+  },
+  {
+   "name": "Bezrobocie w USA",
+   "sub": "raport za wrzesień: 2 października",
+   "value": "4,1%",
+   "date": "sierpień",
+   "threshold": "≥ 4,6%",
+   "status": "ok",
+   "note": "stabilnie",
+   "source": "BLS"
+  },
+  {
+   "name": "Ropa Brent przy słabnącym popycie",
+   "sub": "szczyt tego roku: 120,88 USD (30.04)",
+   "value": "104,3 USD",
+   "date": "25.09",
+   "threshold": "> 120 USD",
+   "status": "watch",
+   "note": "wysoko, poniżej progu; −2,1% na wieść o rozmowach USA–Iran",
+   "source": "Trading Economics"
+  }
+ ],
+ "context": [
+  {
+   "label": "Stopa Fed",
+   "value": "3,75–4%",
+   "note": "szansa podwyżki w październiku ok. 66%"
+  },
+  {
+   "label": "Rentowność 10-latek USA",
+   "value": "5,17%",
+   "note": "25.09; najwyżej od 2007"
+  },
+  {
+   "label": "BTC",
+   "value": "83 805 USD",
+   "note": "25.09; −0,7% w dzień"
+  },
+  {
+   "label": "Złoto",
+   "value": "4 285 USD",
+   "note": "25.09; za uncję"
+  },
+  {
+   "label": "Stopa NBP",
+   "value": "3,75%",
+   "note": "bez zmian; inflacja w sierpniu 3,4%"
+  }
+ ],
+ "news": [
+  {
+   "date": "25.09",
+   "region": "Bliski Wschód",
+   "title": "Iran proponuje otwarcie cieśniny Ormuz w ciągu 7 dni",
+   "summary": "Minister spraw zagranicznych Iranu wezwał USA do powrotu do tymczasowego porozumienia pokojowego; warunkiem jest zniesienie blokady morskiej i odmrożenie aktywów. Brent spadł o 2,1%, do ok. 104,3 USD.",
+   "impact": "Niższa ropa to mniejsza presja inflacyjna. Sygnał „ropa > 120 USD” oddala się.",
+   "source": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+  },
+  {
+   "date": "26.09",
+   "region": "USA–Chiny",
+   "title": "Obniżka ceł na towary za 30 mld USD po wizycie Xi",
+   "summary": "USA tną cła m.in. na AGD, zabawki i foteliki samochodowe, Chiny na produkty rolne, owoce morza i sprzęt medyczny. Chiny mają kupować 10 mln ton amerykańskiego węgla rocznie w latach 2027–2028; powstaje kanał rozmów o incydentach z AI.",
+   "impact": "Mniejsze napięcie handlowe sprzyja aktywom ryzykownym, w tym krypto.",
+   "source": "Axios",
+   "url": "https://www.axios.com/2026/09/26/us-china-tariffs-trade-30-billion"
+  },
+  {
+   "date": "25.09",
+   "region": "USA",
+   "title": "Fed pozostaje jastrzębi, rynek wycenia kolejną podwyżkę",
+   "summary": "Przedstawiciele Fed podtrzymali twardy ton. Szansa podwyżki w październiku ok. 66%. Zamówienia dóbr kapitałowych wyższe od oczekiwań, nastroje konsumentów najniższe od 4 miesięcy.",
+   "impact": "Wysokie stopy w USA wspierają dolara, co podnosi wartość Twoich aktywów dolarowych w złotówkach.",
+   "source": "US Market Report, note.com",
+   "url": "https://note.com/hirokimiyano/n/n774f197d2568?hl=en"
+  },
+  {
+   "date": "26.09",
+   "region": "Ukraina–Rosja",
+   "title": "USA proponują trójstronne rozmowy w Zjednoczonych Emiratach",
+   "summary": "W atakach z obu stron zginęło co najmniej 10 osób; Ukraina uderzyła w rafinerie w Kraju Krasnodarskim. Zełenski czeka na propozycję terminu, Ławrow zarzuca Europie torpedowanie rozmów.",
+   "impact": "Postęp rozmów obniżyłby premię za ryzyko w Europie i na rynku paliw.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks"
+  },
+  {
+   "date": "9.09",
+   "region": "Polska",
+   "title": "RPP utrzymała stopy na 3,75%",
+   "summary": "Inflacja w sierpniu wzrosła do 3,4% r/r, blisko górnej granicy celu. Ekonomiści ING nie spodziewają się obniżek przed połową 2027 roku.",
+   "impact": "EDO (inflacja + 2%) i ROR zachowują wysokie oprocentowanie.",
+   "source": "finwire.pl",
+   "url": "https://finwire.pl/artykuly/stopy-procentowe-rpp-wrzesien-2026-375-inflacja-34-koniec-obnizki"
+  },
+  {
+   "date": "27.09",
+   "region": "Europa",
+   "title": "Szwajcarzy odrzucili w referendum inicjatywę o neutralności",
+   "summary": "W Hiszpanii masowe protesty po eksmisji 87-letniej lokatorki; premier Sánchez zapowiada reformę mieszkaniową.",
+   "impact": "Bez bezpośredniego wpływu na portfel.",
+   "source": "Euronews",
+   "url": "https://www.euronews.com/top-news-stories-today"
+  }
+ ]
+}

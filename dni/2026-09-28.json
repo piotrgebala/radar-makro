@@ -1,0 +1,129 @@
+{
+ "updated": "28.09.2026, 07:45",
+ "next": "codziennie ok. 6:52 czasu polskiego",
+ "signals": [
+  {
+   "name": "Spread obligacji wysokiego ryzyka",
+   "sub": "dodatkowa rentowność obligacji słabszych firm ponad obligacje USA",
+   "value": "2,80 pp",
+   "date": "24.09",
+   "threshold": "> 4,0 pp",
+   "status": "ok",
+   "note": "lekko w górę z 2,66 (21.09); nadal blisko historycznych minimów",
+   "source": "FRED BAMLH0A0HYM2"
+  },
+  {
+   "name": "Krzywa 10 lat minus 2 lata",
+   "sub": "alarm, gdy rośnie, bo spadają 2-latki",
+   "value": "+0,30 pp",
+   "date": "28.09",
+   "threshold": "+0,5 pp w 3 mies. przy spadku 2-latek",
+   "status": "ok",
+   "note": "10-latki 5,21%, 2-latki 4,91%; 2-latki rosną, więc warunek alarmu niespełniony",
+   "source": "Trading Economics"
+  },
+  {
+   "name": "Bezrobocie w USA",
+   "sub": "raport za wrzesień: 2 października",
+   "value": "4,1%",
+   "date": "sierpień",
+   "threshold": "≥ 4,6%",
+   "status": "ok",
+   "note": "bez zmian; raport za wrzesień 2.10",
+   "source": "BLS"
+  },
+  {
+   "name": "Ropa Brent przy słabnącym popycie",
+   "sub": "szczyt tego roku: 120,88 USD (30.04)",
+   "value": "107,6 USD",
+   "date": "28.09",
+   "threshold": "> 120 USD",
+   "status": "watch",
+   "note": "+3,1% po odrzuceniu przez Trumpa propozycji Iranu; poniżej progu",
+   "source": "Trading Economics"
+  }
+ ],
+ "context": [
+  {
+   "label": "Stopa Fed",
+   "value": "3,75–4%",
+   "note": "posiedzenie 28.10; szansa podwyżki ok. 66% (miesiąc temu 9%)"
+  },
+  {
+   "label": "Rentowność 10-latek USA",
+   "value": "5,21%",
+   "note": "28.09; najwyżej od 2007"
+  },
+  {
+   "label": "BTC",
+   "value": "84 540 USD",
+   "note": "27.09 wieczorem; +0,3% w dobę (CoinDesk)"
+  },
+  {
+   "label": "Złoto",
+   "value": "4 186 USD",
+   "note": "28.09; −2,3%, najniżej od 7 tygodni"
+  },
+  {
+   "label": "Stopa NBP",
+   "value": "3,75%",
+   "note": "bez zmian (9.09); inflacja w sierpniu 3,4%; nie odświeżono dziś"
+  }
+ ],
+ "news": [
+  {
+   "date": "26.09",
+   "region": "Bliski Wschód",
+   "title": "Trump odrzucił irańską propozycję otwarcia cieśniny Ormuz",
+   "summary": "Iran chciał w zamian m.in. zniesienia blokady portów, zwolnienia z sankcji na ropę i odmrożenia ok. 12 mld USD aktywów. Minister Araghczi zapowiada, że Teheran nie złagodzi warunków; Trump spodziewa się dalszych rozmów w tym tygodniu.",
+   "impact": "Dłuższa blokada Ormuzu utrzymuje drogą ropę i presję inflacyjną, co zwykle ciąży krypto i metalom przez wyższe stopy.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer"
+  },
+  {
+   "date": "28.09",
+   "region": "Surowce",
+   "title": "Brent w górę o 3%, do ok. 107,6 USD za baryłkę",
+   "summary": "Ropa zyskała na otwarciu tygodnia po fiasku propozycji Iranu; w miesiąc Brent zdrożał o ok. 19%. USA rozważają ograniczenie eksportu oleju napędowego.",
+   "impact": "Sygnał ropy pozostaje „do obserwacji” — do progu alarmu 120 USD brakuje ok. 12%.",
+   "source": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+  },
+  {
+   "date": "28.09",
+   "region": "Metale",
+   "title": "Złoto najniżej od 7 tygodni, srebro traci ok. 3,5%",
+   "summary": "Złoto spadło do ok. 4 186 USD (−2,3%), srebro do ok. 62 USD za uncję. Szansa podwyżki Fed w październiku wzrosła do 65,9% z 57,6% tydzień wcześniej.",
+   "impact": "Twoje 110 oz srebra jest warte ok. 3–4% mniej niż w piątek w dolarach; silniejszy dolar częściowo to łagodzi w złotówkach.",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-6200-amid-fed-rate-hike-odds-202609280322"
+  },
+  {
+   "date": "28.09",
+   "region": "USA",
+   "title": "Rentowność 10-latek USA 5,21%, najwyżej od 2007 roku",
+   "summary": "2-latki 4,91%. Rynek wycenia ok. 66% szans na podwyżkę stóp Fed 28 października po mocnych zamówieniach dóbr kapitałowych i rosnących oczekiwaniach inflacyjnych.",
+   "impact": "Wysokie stopy w USA wspierają dolara (plus dla USDC w złotówkach) i podnoszą koszt pieniądza dla aktywów ryzykownych, w tym BTC i ETH.",
+   "source": "Trading Economics",
+   "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+  },
+  {
+   "date": "26.09",
+   "region": "Krypto",
+   "title": "ETF-y na BTC: 2,4 mld USD napływu w tydzień, bilans roku na plusie",
+   "summary": "W tygodniu do 25.09 spotowe ETF-y na bitcoina przyjęły najwięcej od października 2025; bilans 2026 wynosi +934 mln USD (w lipcu −5,8 mld). ETF-y na ether zebrały 690 mln USD.",
+   "impact": "Popyt instytucjonalny wspiera BTC i ETH mimo jastrzębiego Fed.",
+   "source": "The Block",
+   "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
+  },
+  {
+   "date": "27.09",
+   "region": "USA",
+   "title": "Kontrakty na indeksy w dół; w tym tygodniu inflacja PCE i raport o pracy",
+   "summary": "Kontrakty na S&P 500 −0,3%, na Nasdaq −0,6% po piątkowych wzrostach (S&P 500 7 743 pkt). W środę inflacja PCE za sierpień, pod koniec tygodnia raport z rynku pracy za wrzesień.",
+   "impact": "Raport o pracy zaktualizuje sygnał bezrobocia (próg 4,6%); wysoki odczyt PCE wzmocniłby scenariusz podwyżki.",
+   "source": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-fall-as-brent-tops-106-after-trump-rejects-iran-proposal-mu-slv-qnt-meta-in-focus/cZMSLOqRBfL"
+  }
+ ]
+}
