@@ -1,0 +1,129 @@
+{
+ "updated": "30.09.2026, 06:47",
+ "next": "codziennie ok. 6:52 czasu polskiego",
+ "signals": [
+  {
+   "name": "Spread obligacji wysokiego ryzyka",
+   "sub": "dodatkowa rentowność obligacji słabszych firm ponad obligacje USA",
+   "value": "3,02 pp",
+   "date": "28.09",
+   "threshold": "> 4,0 pp",
+   "status": "ok",
+   "note": "najnowszy dostępny odczyt (FRED podaje z opóźnieniem); 25.09 było 2,93 pp, 24.09 2,80 pp, rok do roku +4,9% — kierunek w górę, ale z niskiego poziomu i wciąż poniżej 80% drogi do progu (3,2 pp). Do progu alarmu 0,98 pp",
+   "source": "FRED BAMLH0A0HYM2 / govspending"
+  },
+  {
+   "name": "Krzywa 10 lat minus 2 lata",
+   "sub": "alarm, gdy rośnie, bo spadają 2-latki",
+   "value": "+0,32 pp",
+   "date": "28.09",
+   "threshold": "+0,5 pp w 3 mies. przy spadku 2-latek",
+   "status": "ok",
+   "note": "10-latki 5,24%, 2-latki 4,92% (25.09: 4,81%) — krzywa jest płaska, a 2-latki rosną, nie spadają, bo rynek wycenia kolejne podwyżki Fed. Warunek alarmu (wzrost ≥ 0,5 pp w 3 miesiące przy spadających 2-latkach) niespełniony",
+   "source": "ETF Trends / FRED T10Y2Y"
+  },
+  {
+   "name": "Bezrobocie w USA",
+   "sub": "raport za wrzesień: piątek 2 października",
+   "value": "4,1%",
+   "date": "sierpień",
+   "threshold": "≥ 4,6%",
+   "status": "ok",
+   "note": "bez zmian wobec lipca; w sierpniu przybyło 162 tys. miejsc pracy wobec konsensusu 53 tys., aktywność zawodowa 61,6%. Konsensus na piątkowy raport za wrzesień to ok. 4,2% i 100 tys. miejsc; JOLTS za wrzesień 7,08 mln ofert. Do progu alarmu 0,5 pp",
+   "source": "BLS / Fox Business"
+  },
+  {
+   "name": "Ropa Brent przy słabnącym popycie",
+   "sub": "szczyt tego roku: 120,88 USD (30.04)",
+   "value": "ok. 103 USD",
+   "date": "29.09",
+   "threshold": "> 120 USD",
+   "status": "watch",
+   "note": "spadek z ok. 107 USD dzień wcześniej (WTI −3,5% do ok. 89 USD), bo Arabia Saudyjska przywróciła przesył ok. 3,5 mln barrel/d rurociągiem Wschód–Zachód, a przez Ormuz płynie 13,2 mln barrel/d, czyli 77% poziomu sprzed wojny. Powyżej progu 95 USD, do alarmu ok. 16%",
+   "source": "Bloomberg / CNBC"
+  }
+ ],
+ "context": [
+  {
+   "label": "Stopa Fed",
+   "value": "3,75–4%",
+   "note": "podwyżka o 25 pb 16.09, pierwsza od 2023; na 28.10 CME FedWatch daje 72,5–76,9% szans na kolejną. John Williams (Fed Nowy Jork) zasugerował 29.09, że bank może poczekać z podwyżką do grudnia"
+  },
+  {
+   "label": "Rentowność 10-latek USA",
+   "value": "5,25%",
+   "note": "zamknięcie 29.09, w trakcie sesji do 5,29% — najwyżej od 2007; 30-latki powyżej 5,6%, najwyżej od 2002. Dwulatki 4,92% (28.09)"
+  },
+  {
+   "label": "BTC",
+   "value": "83 844 USD",
+   "note": "ostatni potwierdzony odczyt z 29.09; nie udało się znaleźć nowszego notowania (rynki prognostyczne na 30.09 wskazują 83,2–83,4 tys. USD)"
+  },
+  {
+   "label": "Złoto",
+   "value": "4 152 USD",
+   "note": "29.09, +0,9% w dobę; szczyt 5 608 USD ze stycznia. Srebro 60,85 USD/oz"
+  },
+  {
+   "label": "Stopa NBP",
+   "value": "3,75%",
+   "note": "bez zmian od obniżki 5.03, ostatnia decyzja RPP 9.09; inflacja w sierpniu 3,4% r/r (z 3,0% w lipcu), szybkiego szacunku za wrzesień (30.09) nie udało się potwierdzić"
+  }
+ ],
+ "news": [
+  {
+   "date": "29.09",
+   "region": "Bliski Wschód",
+   "title": "Ropa tanieje: Saudyjczycy wracają, ale Ormuz wciąż zamknięty w 23%",
+   "summary": "Brent spadł z ok. 107 do ok. 103 USD, WTI o 3,5% do ok. 89 USD, gdy Arabia Saudyjska przywróciła przesył ok. 3,5 mln barrel/d rurociągiem Wschód–Zachód. Przez Ormuz płynie 13,2 mln barrel/d, czyli 77% poziomu sprzed wojny; dzień wcześniej Trump odrzucił irański plan otwarcia cieśniny.",
+   "impact": "Tańsza ropa zmniejsza presję na inflację i stopy, co pomaga BTC/ETH i srebru, a w Polsce łagodzi ceny paliw i kosztów remontów.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/29/oil-prices-today-brent-wti-hormuz.html"
+  },
+  {
+   "date": "29.09",
+   "region": "USA",
+   "title": "Rentowność 10-latek 5,25%, 30-latek powyżej 5,6% — rekordy od lat",
+   "summary": "W trakcie sesji 10-latki sięgnęły 5,29% (najwyżej od 2007), a 30-latki przekroczyły 5,6% (najwyżej od 2002). Dow spadł o 0,26% do 51 349,92, S&P 500 o 0,17% do 7 670,84, indeks dolara wzrósł o 0,18% do ok. 101,4; zaufanie konsumentów spadło do 81,9, najniżej od 2014.",
+   "impact": "Drogie pieniądze obniżają wyceny krypto, srebra i akcji, a dla OFE i nieruchomości w Polsce oznaczają wyższe globalne stopy, które przenoszą się na koszt kredytu.",
+   "source": "FinancialJuice",
+   "url": "https://features.financialjuice.com/2026/09/29/stocks-and-bonds-fall-as-inflation-concerns-keep-yields-elevated-us-market-wrap/"
+  },
+  {
+   "date": "29.09",
+   "region": "USA",
+   "title": "Williams: Fed może poczekać z podwyżką do grudnia",
+   "summary": "Prezes Fed z Nowego Jorku John Williams zasugerował, że bank może wstrzymać się z kolejną podwyżką do grudnia, co ostudziło zakłady na październik; CME wycenia podwyżkę 28.10 na 72,5–76,9%. Dziś dane PCE za sierpień: konsensus +0,4% m/m (3,8% r/r), bazowy +0,3% (3,4% r/r); w piątek raport z rynku pracy.",
+   "impact": "Przesunięcie podwyżki na grudzień byłoby ulgą dla krypto i srebra, a twarde PCE zwiększyłoby ryzyko mocniejszego dolara i spadków na rynkach ryzykownych.",
+   "source": "TheStreet",
+   "url": "https://www.thestreet.com/fed/fed-rate-hike-october-pce-jobs-data"
+  },
+  {
+   "date": "29.09",
+   "region": "Metale",
+   "title": "Złoto 4 152 USD, srebro 60,85 USD po mocnej przecenie",
+   "summary": "Złoto zyskało 0,9% do 4 151,91 USD za uncję, srebro wyniosło 60,85 USD po ok. 6% spadku w poniedziałek. Złoto jest ok. 26% poniżej styczniowego szczytu 5 608 USD, a srebro w miesiąc straciło ok. 8%.",
+   "impact": "Twoje 110 uncji srebra jest w dolarach warte o ok. 8% mniej niż miesiąc temu — przy rosnących rentownościach metale szlachetne pozostają pod presją.",
+   "source": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/gold"
+  },
+  {
+   "date": "29.09",
+   "region": "Krypto",
+   "title": "CFTC zgodziła się na izbę rozliczeniową Coinbase na USDC",
+   "summary": "Od 29.09 działa Coinbase Clearing LLC — pierwsza izba rozliczeniowa zarejestrowana w CFTC, która przyjmuje USDC jako natywne zabezpieczenie i rozlicza całodobowo. Może obsługiwać wyłącznie kontrakty w pełni zabezpieczone, bez dźwigni.",
+   "impact": "USDC zyskuje status zabezpieczenia w regulowanym obrocie w USA, co obniża ryzyko, że Twoje 8 000 USDC straci akceptację jako stablecoin.",
+   "source": "Cointelegraph",
+   "url": "https://cointelegraph.com/news/coinbase-gets-cftc-approval-for-us-derivatives-clearinghouse"
+  },
+  {
+   "date": "29.09",
+   "region": "Polska",
+   "title": "Rząd szykuje wyższy próg podatkowy i CIT 22% dla dużych firm",
+   "summary": "Rząd zajmuje się zmianami: pierwszy próg PIT ma wzrosnąć z 120 do 130 tys. zł, nowa stawka 24% dla dochodów 130–150 tys. zł i 32% powyżej. CIT rośnie z 19% do 22% dla firm z przychodem powyżej 50 mln euro (bez banków), a limit ryczałtu spada z 2 mln do 250 tys. euro.",
+   "impact": "Wyższy próg PIT zwiększa miesięczną nadwyżkę do inwestowania, ale niższy limit ryczałtu może podnieść podatek od dochodów z działalności i najmu.",
+   "source": "Interia Biznes",
+   "url": "https://biznes.interia.pl/gospodarka/news-pracowite-posiedzenie-rzadu-budzet-podwyzki-podatkow-i-progo,nId,23550455"
+  }
+ ]
+}
