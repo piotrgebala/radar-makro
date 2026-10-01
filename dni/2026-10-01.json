@@ -1,0 +1,129 @@
+{
+ "updated": "01.10.2026, 06:45",
+ "next": "codziennie ok. 6:52 czasu polskiego",
+ "signals": [
+  {
+   "name": "Spread obligacji wysokiego ryzyka",
+   "sub": "dodatkowa rentowność obligacji słabszych firm ponad obligacje USA",
+   "value": "2,93 pp",
+   "date": "25.09",
+   "threshold": "> 4,0 pp",
+   "status": "ok",
+   "note": "brak nowszego potwierdzonego odczytu serii FRED (BAMLH0A0HYM2) — zostaje ostatnia wartość z 25.09; wyszukiwanie pokazało tylko starsze dane (2,63 pp z 27.08). Poziom bliski wieloletniemu minimum, 80% drogi do progu to 3,2 pp. Do progu alarmu 1,07 pp",
+   "source": "FRED BAMLH0A0HYM2"
+  },
+  {
+   "name": "Krzywa 10 lat minus 2 lata",
+   "sub": "alarm, gdy rośnie, bo spadają 2-latki",
+   "value": "+0,40 pp",
+   "date": "30.09",
+   "threshold": "+0,5 pp w 3 mies. przy spadku 2-latek",
+   "status": "ok",
+   "note": "10-latki 5,29% (+0,04 pp wobec poprzedniej sesji), 2-latki ok. 4,90% — krzywa płaska, a 2-latki nie spadają (4,92% 28.09, 4,90% 30.09), więc warunek alarmu (wzrost ≥ 0,5 pp w 3 miesiące przy SPADAJĄCYCH 2-latkach) jest niespełniony. Wartość wyliczona z dwóch notowań, nie z serii FRED T10Y2Y",
+   "source": "Trading Economics / Federal Reserve H.15 (wyszukiwanie)"
+  },
+  {
+   "name": "Bezrobocie w USA",
+   "sub": "raport za wrzesień: piątek 2 października",
+   "value": "4,1%",
+   "date": "sierpień",
+   "threshold": "≥ 4,6%",
+   "status": "ok",
+   "note": "nadal ostatni opublikowany odczyt BLS (sierpień). Raport za wrzesień wychodzi w piątek 2 października; konsensus: ok. 84–100 tys. miejsc pracy i bezrobocie 4,2%. Kluczowy dla decyzji Fed 28.10. Do progu alarmu 0,5 pp",
+   "source": "BLS"
+  },
+  {
+   "name": "Ropa Brent przy słabnącym popycie",
+   "sub": "szczyt tego roku: 120,88 USD (30.04)",
+   "value": "98,03 USD",
+   "date": "30.09",
+   "threshold": "> 120 USD",
+   "status": "watch",
+   "note": "rozliczenie grudniowego kontraktu Brent 30.09 (+1,9%); wygasający listopadowy 103,53 USD. Przepływy przez Ormuz zbliżają się do poziomów sprzed wojny, ale trzy tankery zostały trafione we wtorek. Powyżej progu obserwacji 95 USD, do alarmu ok. 22%. Wcześniejszy odczyt radaru (96,42 USD) dotyczył innego kontraktu/godziny",
+   "source": "Rigzone / Bloomberg (wyszukiwanie)"
+  }
+ ],
+ "context": [
+  {
+   "label": "Stopa Fed",
+   "value": "3,75–4%",
+   "note": "bez zmian po podwyżce o 25 pb 16.09. Szanse na podwyżkę 28.10 po wtorkowym PCE spadły do ok. 37% (Yahoo Finance), ale inne źródło wciąż podaje ok. 70% — dane niespójne. Rynek przesuwa kolejny ruch na grudzień; decyduje piątkowy raport z rynku pracy"
+  },
+  {
+   "label": "Rentowność 10-latek USA",
+   "value": "5,29%",
+   "note": "30.09 (+0,04 pp wobec poprzedniej sesji); 30-latki powyżej 5,6% — najwyżej od 2002. Dwulatki ok. 4,90%. Rynek nie utrzymał spadku rentowności po miękkim PCE"
+  },
+  {
+   "label": "BTC",
+   "value": "83 600 USD",
+   "note": "koniec 30.09, +0,1% w dobę; po publikacji PCE skok o ok. 2% do ok. 85,5 tys. USD, który został oddany. Szczyt 126 210 USD z 6.10.2025"
+  },
+  {
+   "label": "Złoto",
+   "value": "4 157 USD",
+   "note": "30.09, spadek o ok. 0,6% w dobę; po PCE chwilowo ok. 4 215 USD, potem wyprzedaż wraz z odbiciem dolara i rentowności. Szczyt 5 608 USD ze stycznia"
+  },
+  {
+   "label": "Stopa NBP",
+   "value": "3,75%",
+   "note": "bez zmian od obniżki 5.03. Ostatnia potwierdzona inflacja to sierpień 3,4% r/r; nie udało się wiarygodnie potwierdzić szybkiego szacunku GUS za wrzesień (wyszukiwanie dało sprzeczne dane) — zostaje poprzednia wartość. EDO 10-letnie 5,35%"
+  }
+ ],
+ "news": [
+  {
+   "date": "30.09",
+   "region": "Surowce",
+   "title": "Brent 98 USD: przepływy przez Ormuz rosną mimo ataków",
+   "summary": "Grudniowy Brent zamknął się 30.09 na 98,03 USD (+1,9%), a wygasający listopadowy na 103,53 USD. Przepływy przez Ormuz zbliżają się do poziomów sprzed wojny, lecz UKMTO zgłosiło trafienie trzech tankerów we wtorek. OPEC+ ma w ten weekend utrzymać limity na listopad.",
+   "impact": "Ropa w okolicy 100 USD podtrzymuje presję inflacyjną i ryzyko kolejnych podwyżek stóp, co ciąży krypto i srebru; w Polsce oznacza to droższe paliwo i wyższe koszty utrzymania nieruchomości.",
+   "source": "Rigzone",
+   "url": "https://www.rigzone.com/news/wire/oil_futures_rise_despite_increasing_flows-30-sep-2026-184743-article/"
+  },
+  {
+   "date": "30.09",
+   "region": "USA",
+   "title": "Miękkie PCE, ale rentowności i tak wzrosły",
+   "summary": "Bazowy PCE za sierpień wzrósł o 0,2% m/m i 3,0% r/r (wobec 3,3% w lipcu), poniżej prognoz 0,3%. Rentowności najpierw spadły, ale do końca sesji odrobiły straty, dolar zyskał wobec większości walut G10, a Dow zakończył wrzesień na poziomach z czerwca.",
+   "impact": "Brak trwałego ruchu rentowności po dobrych danych o inflacji pokazuje, jak wrażliwy jest rynek na podaż długu — dla BTC/ETH i srebra oznacza to dalszą zmienność wokół każdej publikacji makro.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-30-sept-softer-pce-fails-to-hold-yields-down-dow-ends-september-at-june-lows/"
+  },
+  {
+   "date": "30.09",
+   "region": "USA",
+   "title": "Rentowność 10-latek 5,29%, 30-latek ponad 5,6%",
+   "summary": "Rentowność 10-letnich obligacji USA wzrosła 30.09 do 5,29% (+0,04 pp), a 30-letnich przekroczyła 5,6% — najwięcej od 2002 r. Inwestorzy ignorują łagodniejsze dane o inflacji i czekają na piątkowy raport z rynku pracy.",
+   "impact": "Wysokie globalne stopy podnoszą koszt kapitału dla aktywów bez kuponu (krypto, srebro) oraz wywierają presję na wyceny nieruchomości i obligacji w Polsce, w tym na OFE.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/09/30/treasury-yields-bonds-selloff.html"
+  },
+  {
+   "date": "30.09",
+   "region": "USA",
+   "title": "Podwyżka Fed w październiku zależy od dwóch raportów",
+   "summary": "Po PCE szanse na październikową podwyżkę stóp spadły do ok. 37%, a rynek przesuwa kolejny ruch na grudzień (inne notowania podają ok. 70%). Raport z rynku pracy 2.10 ma pokazać ok. 84–100 tys. nowych miejsc pracy i bezrobocie 4,2%.",
+   "impact": "Mocny raport zwiększy szanse podwyżki i pogłębi presję na krypto i srebro; słaby da im chwilę oddechu, ale może też podbić obawy o recesję — dla Twoich USDC to argument, by zachować gotowość.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/economy/policy/articles/october-fed-rate-hike-hinges-232828169.html"
+  },
+  {
+   "date": "30.09",
+   "region": "Rynki",
+   "title": "Wojna z Iranem zdefiniowała wrzesień na rynkach",
+   "summary": "S&P 500 zanotował najgorszy miesiąc od czerwca. Zwycięzcą były spółki energetyczne, rentowności obligacji sięgnęły najwyższych poziomów od lat, a banki centralne na świecie podnosiły stopy. Teheran potwierdził, że otrzymał amerykańską propozycję dotyczącą otwarcia cieśniny.",
+   "impact": "Ewentualne porozumienie w sprawie Ormuzu mogłoby zbić ropę i rentowności, co sprzyjałoby krypto i srebru; brak porozumienia utrzymuje obecny reżim drogiego pieniądza.",
+   "source": "CNN",
+   "url": "https://cnn.com/2026/09/30/business/us-stocks-bonds-iran"
+  },
+  {
+   "date": "30.09",
+   "region": "Krypto i metale",
+   "title": "BTC 83,6 tys. USD po skoku i cofnięciu, złoto 4 157 USD",
+   "summary": "BTC zakończył dzień ok. 83 600 USD (+0,1%) po skoku o ok. 2% do 85,5 tys. USD tuż po PCE. Złoto spadło o ok. 0,6% do ok. 4 157 USD po chwilowym wzroście do 4 215 USD, gdy dolar i rentowności odbiły.",
+   "impact": "Oba rynki reagują na rentowności odwrotnie do Twojej intuicji o „twardych aktywach”: skoki po danych znikają, gdy rośnie dolar — przy 61% krypto w aktywach płynnych liczy się zmienność, nie kierunek jednego dnia.",
+   "source": "BabyPips",
+   "url": "https://www.babypips.com/news/financial-forex-market-recap-2026-09-30"
+  }
+ ]
+}
