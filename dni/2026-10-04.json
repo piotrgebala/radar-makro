@@ -1,0 +1,129 @@
+{
+ "updated": "04.10.2026, 06:46",
+ "next": "codziennie ok. 6:52 czasu polskiego",
+ "signals": [
+  {
+   "name": "Spread obligacji wysokiego ryzyka",
+   "sub": "dodatkowa rentowność obligacji słabszych firm ponad obligacje USA",
+   "value": "3,24 pp",
+   "date": "01.10",
+   "threshold": "> 4,0 pp",
+   "status": "watch",
+   "note": "odczyt z 01.10 wobec 3,12 pp z 30.09; to już powyżej progu obserwacji 3,2 pp (80% drogi do 4,0 pp). Spread CCC wynosi 12,15 pp (01.10) i od 30.09 jest w strefie „distressed” (> 10,07 pp). Do progu alarmu 0,76 pp. Nie znalazłem odczytu z 02.10",
+   "source": "FRED BAMLH0A0HYM2 (odczyt z wyszukiwania)"
+  },
+  {
+   "name": "Krzywa 10 lat minus 2 lata",
+   "sub": "alarm, gdy rośnie, bo spadają 2-latki",
+   "value": "+0,45 pp",
+   "date": "02.10",
+   "threshold": "+0,5 pp w 3 mies. przy spadku 2-latek",
+   "status": "watch",
+   "note": "10-latki ok. 5,18%, 2-latki ok. 4,73% (02.10, po słabym raporcie z rynku pracy; CNBC) — krzywa 0,45 pp, ok. 90% progu +0,5 pp. 2-latki spadły o ok. 6 pb w ciągu dnia. Zmiana krzywej w 3 miesiące nie została zweryfikowana, więc alarm niepotwierdzony; wartość wyliczona z dwóch notowań, nie z serii FRED T10Y2Y",
+   "source": "CNBC (wyszukiwanie)"
+  },
+  {
+   "name": "Bezrobocie w USA",
+   "sub": "raport za wrzesień opublikowany 2 października",
+   "value": "4,2%",
+   "date": "wrzesień",
+   "threshold": "≥ 4,6%",
+   "status": "watch",
+   "note": "raport BLS z 02.10: bezrobocie wzrosło do 4,2% z 4,1%, przyrost miejsc pracy tylko 29 tys. wobec prognozy ok. 84 tys.; sierpień zrewidowany do 133 tys., lipiec do −10 tys.; wzrost płac 3,0% r/r (najsłabiej od maja 2021). Wartość to ok. 91% progu 4,6%, stąd „watch”. Do progu alarmu 0,4 pp",
+   "source": "BLS / CNBC"
+  },
+  {
+   "name": "Ropa Brent przy słabnącym popycie",
+   "sub": "szczyt tego roku: 120,88 USD (30.04)",
+   "value": "102,25 USD",
+   "date": "02.10",
+   "threshold": "> 120 USD",
+   "status": "watch",
+   "note": "zamknięcie 02.10 (−0,06 USD); wzrost o ok. 14% we wrześniu, ale ok. −1,9% w tygodniu. WSJ: Pentagon może wysłać trzeci lotniskowiec i 10 tys. żołnierzy w rejon Zatoki; G7 rozważa uwolnienie zapasów diesla, Chiny ograniczają eksport paliw. Powyżej progu obserwacji 95 USD, do alarmu ok. 17%",
+   "source": "CNBC (wyszukiwanie)"
+  }
+ ],
+ "context": [
+  {
+   "label": "Stopa Fed",
+   "value": "3,75–4%",
+   "note": "bez zmian po podwyżce o 25 pb 16.09. Po słabym raporcie z 02.10 CME FedWatch wycenia ok. 83–84% szans, że Fed zostawi stopy bez zmian 28.10 (inne ujęcie: ok. 26% na podwyżkę, ok. 80% na grudzień)"
+  },
+  {
+   "label": "Rentowność 10-latek USA",
+   "value": "5,18%",
+   "note": "02.10, spadek o ok. 6 pb po raporcie z rynku pracy; we wcześniejszych dniach rentowność była najwyżej od początku wieku (30.09 ok. 5,29%). Dwulatki ok. 4,73% (CNBC)"
+  },
+  {
+   "label": "BTC",
+   "value": "86 460 USD",
+   "note": "02.10, rano (7:25 ET; Yahoo Finance), maks. 24 h 87 146 USD; wobec 86 520 USD z 01.10. Szczyt 126 210 USD z 6.10.2025"
+  },
+  {
+   "label": "Złoto",
+   "value": "4 217 USD",
+   "note": "02.10, ok. +1% (Kitco/CNBC), po słabym raporcie z rynku pracy; srebro ok. 61,75 USD/oz (+1,45%). Szczyt złota 5 608 USD ze stycznia"
+  },
+  {
+   "label": "Stopa NBP",
+   "value": "3,75%",
+   "note": "bez zmian od marca; RPP utrzymała stopy 9.09. Szybki szacunek GUS za wrzesień: inflacja 4,0% r/r (3,4% w sierpniu), 0,7% m/m, paliwa +36,1% r/r po końcu rządowych dopłat — powyżej górnej granicy celu NBP (3,5%). Credit Agricole oczekuje podwyżki do 4,00% w IV kw. EDO 10-letnie 5,35%"
+  }
+ ],
+ "news": [
+  {
+   "date": "02.10",
+   "region": "USA",
+   "title": "Słaby rynek pracy: +29 tys. etatów, bezrobocie 4,2%",
+   "summary": "BLS: we wrześniu przybyło tylko 29 tys. miejsc pracy (prognoza ok. 84 tys.), bezrobocie wzrosło do 4,2%, a płace rosły 3,0% r/r. Rentowność 10-latek spadła o ok. 6 pb do 5,18%, a szanse podwyżki Fed 28.10 spadły do ok. 16–26%.",
+   "impact": "Mniejsza presja na podwyżki stóp sprzyja krypto, srebru i wycenom OFE, ale słabnący rynek pracy to też sygnał spowolnienia, którego Radar pilnuje.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+  },
+  {
+   "date": "02.10",
+   "region": "Bliski Wschód",
+   "title": "Brent ok. 102 USD; USA wzmacniają obecność w Zatoce",
+   "summary": "Brent zamknął 02.10 na ok. 102,25 USD, a WTI na 91,11 USD (−1,76 USD) po 4-proc. skoku dzień wcześniej. WSJ: Pentagon może wysłać trzeci lotniskowiec i 10 tys. żołnierzy; G7 omawia uwolnienie zapasów diesla, a Chiny ograniczają eksport paliw.",
+   "impact": "Ropa powyżej 100 USD podtrzymuje inflację (w Polsce droższe paliwo i koszty utrzymania nieruchomości) i ryzyko wyższych stóp, co ciąży krypto i srebru.",
+   "source": "CNBC",
+   "url": "https://cnbc.com/2026/10/02/oil-wti-brent-diesel-stock-release-europe.html"
+  },
+  {
+   "date": "02.10",
+   "region": "USA",
+   "title": "Wall Street w górę po słabym raporcie, Nasdaq +1,2%",
+   "summary": "S&P 500 zyskał 0,7%, Nasdaq 1,2%, a Dow 0,5%, bo słabe dane utwierdziły rynek w przekonaniu, że Fed zostawi stopy w październiku. W całym tygodniu Nasdaq zakończył na plusie, a Dow i S&P 500 na minusie.",
+   "impact": "Odwrót od scenariusza podwyżek poprawia nastroje wobec aktywów ryzykownych, w tym BTC/ETH, i wspiera globalne wyceny, od których zależy m.in. OFE.",
+   "source": "TheStreet",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-02-2026"
+  },
+  {
+   "date": "02.10",
+   "region": "Krypto",
+   "title": "Bitcoin powyżej 86 tys. USD przed raportem z rynku pracy",
+   "summary": "BTC otworzył 02.10 na ok. 84 850 USD i rano kosztował ok. 86 460 USD (maks. 24 h 87 146 USD) po fali zamknięć pozycji krótkich; Citi wskazuje cel 113 tys. USD. Kapitalizacja rynku krypto wzrosła o ok. 2,1% do 2,93 bln USD.",
+   "impact": "Dla portfela z BTC/ETH to odbicie od ostatnich spadków, ale napędzane krótkimi pozycjami i oczekiwaniami wobec Fed, więc wrażliwe na kolejne dane o stopach.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-october-2-2026-crypto-prices-surging-ahead-of-september-jobs-report-112959413.html"
+  },
+  {
+   "date": "02.10",
+   "region": "Surowce",
+   "title": "Złoto wraca powyżej 4 200 USD, srebro ok. 61,75 USD",
+   "summary": "Spot złota zyskał ok. 1% do ok. 4 217 USD za uncję, a srebro ok. 1,45% do ok. 61,75 USD, gdy słabe dane z USA obniżyły szanse podwyżki Fed. Metale szły jednak w stronę drugiego tygodnia spadków przed raportem.",
+   "impact": "Niższe oczekiwania stóp wspierają srebro w portfelu, choć jest ono ok. 5% poniżej ceny, po której wyceniono je w Portfelu (ok. 65 USD).",
+   "source": "Kitco",
+   "url": "https://www.kitco.com/news/article/2026-10-02/gold-silver-rise-weak-payrolls-cut-fed-hike-odds-kitco-am-report"
+  },
+  {
+   "date": "01.10",
+   "region": "Rynki",
+   "title": "Obligacje śmieciowe: spready CCC w strefie „distressed”",
+   "summary": "Spread obligacji CCC wyniósł 12,15 pp (01.10) i od 30.09 przekracza próg 10,07 pp po raz pierwszy od upadku SVB. Spread całego indeksu high yield to 3,24 pp, poniżej progu alarmu 4,0 pp. Tłem jest wrześniowa wyprzedaż obligacji USA.",
+   "impact": "Pogarszające się warunki kredytowe to wczesny sygnał awersji do ryzyka, który zwykle uderza w krypto szybciej niż w nieruchomości; warto go śledzić razem ze spreadem HY na Radarze.",
+   "source": "Tech Times",
+   "url": "https://www.techtimes.com/articles/328402/20261001/junk-bonds-cross-distressed-territory-high-yield-funds-now-hold-bankruptcy-bets.htm"
+  }
+ ]
+}
