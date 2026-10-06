@@ -1,0 +1,129 @@
+{
+ "updated": "06.10.2026, 06:48",
+ "next": "codziennie ok. 6:52 czasu polskiego",
+ "signals": [
+  {
+   "name": "Spread obligacji wysokiego ryzyka",
+   "sub": "dodatkowa rentowność obligacji słabszych firm ponad obligacje USA",
+   "value": "3,24 pp",
+   "date": "01.10",
+   "threshold": "> 4,0 pp",
+   "status": "watch",
+   "note": "ostatni dostępny odczyt z 01.10 (3,24 pp; 80% drogi do progu 4,0 pp = 3,2 pp), bez nowszego z 02.10 w wyszukiwaniu. Spread CCC 12,02 pp (02.10) wobec 12,15 pp z 01.10, nadal w strefie „distressed” (> 10,07 pp); BB 2,04 pp, B 3,29 pp. Do progu alarmu 0,76 pp",
+   "source": "FRED BAMLH0A0HYM2 (odczyt z wyszukiwania, 01.10)"
+  },
+  {
+   "name": "Krzywa 10 lat minus 2 lata",
+   "sub": "alarm, gdy rośnie, bo spadają 2-latki",
+   "value": "+0,49 pp",
+   "date": "05.10",
+   "threshold": "+0,5 pp w 3 mies. przy spadku 2-latek",
+   "status": "watch",
+   "note": "10-latki 5,315% (05.10, najwyżej od 2002; TheStreet/CNBC), 2-latki ok. 4,83% (−1,4 pb w dniu) — krzywa ok. 0,49 pp, ok. 97% progu +0,5 pp. Alarm wymaga wzrostu o ≥ 0,5 pp w 3 miesiące przy spadających 2-latkach; zmiana 3-miesięczna niezweryfikowana, więc alarm niepotwierdzony. Wartość wyliczona z dwóch notowań, nie z serii FRED T10Y2Y; źródła różnie podają 2-latki (4,73–4,83%)",
+   "source": "TheStreet / CNBC (wyszukiwanie)"
+  },
+  {
+   "name": "Bezrobocie w USA",
+   "sub": "raport za wrzesień opublikowany 2 października",
+   "value": "4,2%",
+   "date": "wrzesień",
+   "threshold": "≥ 4,6%",
+   "status": "watch",
+   "note": "raport BLS z 02.10 (bez nowszego): bezrobocie 4,2% wobec 4,1%, przyrost miejsc pracy 29 tys. wobec prognozy ok. 84 tys.; płace +3,0% r/r. Wartość to ok. 91% progu 4,6%, stąd „watch”. Do progu alarmu 0,4 pp. 05.10 ISM usług za wrzesień 54,9 pkt, a ceny płacone 74,0 (najwyżej od lipca 2022)",
+   "source": "BLS / CNBC"
+  },
+  {
+   "name": "Ropa Brent przy słabnącym popycie",
+   "sub": "szczyt tego roku: 120,88 USD (30.04)",
+   "value": "101,31 USD",
+   "date": "05.10",
+   "threshold": "> 120 USD",
+   "status": "watch",
+   "note": "notowanie z 05.10 (−0,92% d/d; Trading Economics), inne źródło podaje zamknięcie 101,35 USD; ropa Murban 110 USD (Gulf News). Brak pewnego odczytu z 06.10. Napięcie wokół Iranu i Zatoki (USA rozważają wysłanie kolejnego lotniskowca) podtrzymuje cenę. Powyżej progu obserwacji 95 USD, do alarmu ok. 18%",
+   "source": "Trading Economics / Gulf News (wyszukiwanie)"
+  }
+ ],
+ "context": [
+  {
+   "label": "Stopa Fed",
+   "value": "3,75–4%",
+   "note": "bez zmian po podwyżce o 25 pb 16.09. CME FedWatch (05.10): ok. 21,6% szans na podwyżkę 28.10, ok. 82% że Fed zostawi stopy bez zmian (70,9% na podwyżkę jeszcze 28.09). Protokół z wrześniowego posiedzenia w środę 07.10"
+  },
+  {
+   "label": "Rentowność 10-latek USA",
+   "value": "5,315%",
+   "note": "05.10, najwyżej od 2002 r. (52-tyg. maksimum; 20-latki 5,717%, 30-latki 5,670%). Dwulatki ok. 4,83%. Brak odczytu z 06.10"
+  },
+  {
+   "label": "BTC",
+   "value": "86 400 USD",
+   "note": "05.10 rano ok. 86 100–86 500 USD (Yahoo Finance, Fortune/CoinDesk); trzeci tydzień wzrostów, łącznie ponad 12% od połowy września; ok. 32% poniżej rekordu sprzed roku. Kapitalizacja rynku krypto ok. 2,93 bln USD"
+  },
+  {
+   "label": "Złoto",
+   "value": "4 128 USD",
+   "note": "05.10, spot ok. 4 128–4 138 USD (Kitco), −11,8 USD w dniu pod presją ropy i rentowności obligacji. Szczyt złota 5 608 USD ze stycznia"
+  },
+  {
+   "label": "Stopa NBP",
+   "value": "3,75%",
+   "note": "bez zmian od marca, piąty miesiąc z rzędu; RPP obraduje 6–7.10. Inflacja CPI za wrzesień 4,0% r/r (3,4% w sierpniu; GUS, szybki szacunek), paliwa +36,1% r/r — powyżej górnej granicy celu NBP (3,5%). Credit Agricole oczekuje podwyżki do 4,00% w IV kw. EDO 10-letnie 5,35%"
+  }
+ ],
+ "news": [
+  {
+   "date": "05.10",
+   "region": "USA",
+   "title": "Rentowność 10-latek 5,315%, najwyżej od 2002 r.",
+   "summary": "Rentowność 10-letnich obligacji USA wzrosła do ok. 5,315%, a 30-letnich do 5,670%, mimo spadku szans na podwyżkę Fed 28.10 do ok. 21,6%. ISM usług za wrzesień spadł do 54,9, ale ceny płacone wzrosły do 74,0, najwyżej od lipca 2022.",
+   "impact": "Drogie pieniądze i uparta inflacja ciążą krypto i srebru oraz wyceniają w górę koszt kredytów hipotecznych, co mrozi rynek nieruchomości; EDO i obligacje zyskują na atrakcyjności.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html"
+  },
+  {
+   "date": "05.10",
+   "region": "USA",
+   "title": "Nasdaq z rekordem 27 477 pkt mimo wysokich rentowności",
+   "summary": "Nasdaq zamknął się na rekordzie 27 477,31 pkt (+1,05%), S&P 500 wzrósł o 0,66% do 7 773,99, a Dow o 0,18% do 51 267,90. Inwestorzy czekają na protokół z wrześniowego posiedzenia Fed w środę.",
+   "impact": "Apetyt na ryzyko w akcjach wspiera BTC/ETH, ale rozjazd z rosnącymi rentownościami zwiększa ryzyko gwałtownej korekty, która uderzyłaby w krypto i wyceny w OFE.",
+   "source": "TheStreet",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-05-2026"
+  },
+  {
+   "date": "05.10",
+   "region": "Bliski Wschód",
+   "title": "Brent ok. 101 USD, ropa Murban 110 USD za baryłkę",
+   "summary": "Brent notowano 05.10 na ok. 101,3–101,35 USD (−0,92% d/d), a azjatycka ropa Murban sięgnęła 110 USD. Rynek nadal wycenia ryzyko eskalacji wokół Iranu i Zatoki Perskiej.",
+   "impact": "Ropa powyżej 100 USD podbija inflację i paliwa w Polsce (we wrześniu paliwa +36,1% r/r), co wzmacnia ryzyko wyższych stóp i podnosi koszty utrzymania nieruchomości.",
+   "source": "Gulf News",
+   "url": "https://gulfnews.com/amp/story/world/americas/oil-prices-split-as-brent-tops-102-murban-hits-110-per-barrel-on-oct-5-2026-1.500698305"
+  },
+  {
+   "date": "05.10",
+   "region": "Krypto",
+   "title": "Bitcoin utrzymuje 86 tys. USD po trzech tygodniach zwyżek",
+   "summary": "BTC otworzył 05.10 na ok. 86 500 USD (+2,1% wobec niedzielnego otwarcia), a rano kosztował ok. 86 100–86 400 USD. Od połowy września zyskał ponad 12%, a kapitalizacja rynku krypto wynosi ok. 2,93 bln USD.",
+   "impact": "Odbicie poprawia wycenę zmiennych tokenów w portfelu, ale BTC jest nadal ok. 32% poniżej rekordu i reaguje na rentowności oraz oczekiwania wobec Fed.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-october-5-2026-bitcoin-back-above-86000-after-higher-rate-expectations-fade-114459647.html"
+  },
+  {
+   "date": "05.10",
+   "region": "Surowce",
+   "title": "Złoto tanieje do 4 128 USD pod presją ropy i rentowności",
+   "summary": "Spot złota spadł 05.10 do ok. 4 128 USD za uncję (−11,8 USD), a w ciągu dnia wahał się w przedziale ok. 4 128–4 138 USD. Kitco wskazuje na presję wysokiej ropy i rosnących rentowności obligacji.",
+   "impact": "Wysokie realne stopy osłabiają metale szlachetne, więc srebro w portfelu może pozostać pod presją, dopóki rentowności obligacji nie zaczną spadać.",
+   "source": "Kitco",
+   "url": "https://www.kitco.com/news/article/2026-10-05/gold-price-suffers-under-oil-yield-pressures-mexicos-silver-production"
+  },
+  {
+   "date": "06.10",
+   "region": "Polska",
+   "title": "RPP obraduje 6–7.10; inflacja 4,0%, stopa NBP 3,75%",
+   "summary": "Inflacja CPI w Polsce wzrosła we wrześniu do 4,0% r/r (3,4% w sierpniu), głównie przez paliwa (+36,1% r/r po powrocie pełnego VAT). Stopa referencyjna NBP wynosi 3,75% piąty miesiąc, a Credit Agricole oczekuje podwyżki do 4,00% w IV kw.",
+   "impact": "Wyższe stopy podniosłyby koszt kredytów i mogą schłodzić rynek nieruchomości, a oprocentowanie obligacji i lokat rośnie; inflacja powyżej celu wzmacnia też argument za twardymi aktywami.",
+   "source": "Bank.pl",
+   "url": "https://bank.pl/?p=560635"
+  }
+ ]
+}
