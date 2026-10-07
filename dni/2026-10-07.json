@@ -1,0 +1,130 @@
+{
+ "wersja": 1,
+ "updated": "07.10.2026, 06:47",
+ "next": "codziennie ok. 6:44 czasu polskiego",
+ "signals": [
+  {
+   "name": "Spread obligacji wysokiego ryzyka",
+   "sub": "dodatkowa rentowność obligacji słabszych firm ponad obligacje USA",
+   "value": "3,12 pp",
+   "date": "05.10",
+   "threshold": "> 4,0 pp",
+   "status": "ok",
+   "note": "odczyt FRED z 05.10: 3,12 pp wobec 3,24 pp z 01.10 — spadek o 0,12 pp. Wartość jest teraz poniżej strefy obserwacji (80% drogi do progu = 3,2 pp), stąd zmiana z „watch” na „ok”. Do progu alarmu 0,88 pp",
+   "source": "FRED BAMLH0A0HYM2 (05.10)"
+  },
+  {
+   "name": "Krzywa 10 lat minus 2 lata",
+   "sub": "alarm, gdy rośnie, bo spadają 2-latki",
+   "value": "+0,48 pp",
+   "date": "06.10",
+   "threshold": "+0,5 pp w 3 mies. przy spadku 2-latek",
+   "status": "watch",
+   "note": "FRED T10Y2Y z 06.10: 0,48 pp (05.10: 10-latki 5,31%, 2-latki 4,84% wg Fed H.15). 06.10 10-latki spadły o 3,6 pb do 5,275%, a 2-latki o ponad 4 pb (TheStreet) — krótki koniec spada szybciej. Poziom to ok. 96% progu +0,5 pp; zmiana 3-miesięczna niezweryfikowana, więc alarm niepotwierdzony",
+   "source": "FRED T10Y2Y / Fed H.15 / TheStreet"
+  },
+  {
+   "name": "Bezrobocie w USA",
+   "sub": "raport za wrzesień opublikowany 2 października",
+   "value": "4,2%",
+   "date": "wrzesień",
+   "threshold": "≥ 4,6%",
+   "status": "watch",
+   "note": "raport BLS z 02.10 (bez nowszego): bezrobocie 4,2% wobec 4,1%, przyrost miejsc pracy 29 tys. wobec prognozy ok. 84 tys.; płace +3,0% r/r. Wartość to ok. 91% progu 4,6%, stąd „watch”. Do progu alarmu 0,4 pp. Następny raport na początku listopada",
+   "source": "BLS / CNBC"
+  },
+  {
+   "name": "Ropa Brent przy słabnącym popycie",
+   "sub": "szczyt tego roku: 120,88 USD (30.04)",
+   "value": "101,53 USD",
+   "date": "07.10",
+   "threshold": "> 120 USD",
+   "status": "watch",
+   "note": "07.10 rano 101,53 USD (+0,94% d/d; Trading Economics). 05.10 kontrakt grudniowy zamknął się na 100,32 USD (−1,9%), 06.10 w ciągu dnia schodził do 99,57 USD (Al Jazeera). Ceny ciągną w górę ataki Iranu na tankowce w Ormuz (9 incydentów w październiku wg UKMTO), w dół — uwolnienie 100 mln baryłek rezerw G7 i odbudowa eksportu z Zatoki. Powyżej progu obserwacji 95 USD, do alarmu ok. 18%",
+   "source": "Trading Economics / Wion / Al Jazeera (wyszukiwanie)"
+  }
+ ],
+ "context": [
+  {
+   "label": "Stopa Fed",
+   "value": "3,75–4%",
+   "note": "bez zmian po podwyżce o 25 pb 16.09; efektywna stopa 3,88%. Szansa podwyżki 28.10 ok. 18–20% (rynki predykcyjne 03.10; swapy wg CME FedWatch 07.10), na grudzień ok. 72%. Protokół z wrześniowego posiedzenia dziś (07.10)"
+  },
+  {
+   "label": "Rentowność 10-latek USA",
+   "value": "5,275%",
+   "note": "zamknięcie 06.10, −3,6 pb po wielodekadowym szczycie z 05.10 (5,31% wg Fed H.15). Dwulatki spadły o ponad 4 pb, do ok. 4,80%"
+  },
+  {
+   "label": "BTC",
+   "value": "85 600 USD",
+   "note": "06.10: otwarcie 85 751 USD (−0,8% d/d), przedpołudnie 86 229 USD (Yahoo Finance), później ok. 85 595 USD (CryptoTimes); zakres doby 85 010–86 662 USD, opór przy 87 000 USD. +7,4% w miesiąc, −30,6% r/r"
+  },
+  {
+   "label": "Złoto",
+   "value": "4 187 USD",
+   "note": "06.10, kontrakty terminowe: otwarcie 4 169,20 USD (+0,3%), o 6:59 czasu nowojorskiego 4 187,30 USD (Yahoo Finance) — to cena futures, nie spot (05.10 spot ok. 4 128 USD wg Kitco). −7,8% w miesiąc. Srebro 07.10 ok. 60,90 USD/uncję (FXStreet)"
+  },
+  {
+   "label": "Stopa NBP",
+   "value": "3,75%",
+   "note": "bez zmian od marca; decyzja RPP z posiedzenia 6–7.10 dziś po południu (brak wyniku w chwili odświeżenia). Inflacja CPI za wrzesień 4,0% r/r; przywrócony program CPN (VAT na paliwa 8%, akcyza −29 gr/l) ma obniżyć październikową inflację do ok. 3,4–3,9% i zmniejsza szansę podwyżki w listopadzie (Rzeczpospolita)"
+  }
+ ],
+ "news": [
+  {
+   "date": "06.10",
+   "region": "Bliski Wschód",
+   "title": "Iran nasila ataki na tankowce w cieśninie Ormuz",
+   "summary": "W ciągu tygodnia zgłoszono co najmniej 7 incydentów (m.in. pożar VLCC Kazimah III 01.10 i trafienie tankowca Lipsi 04.10), choć eksport z Zatoki bez Iranu wrócił we wrześniu do 81% poziomu sprzed wojny. Brent schodził 06.10 do 99,57 USD (−0,75%).",
+   "impact": "Premia wojenna utrzymuje ropę ok. 100 USD, co podtrzymuje inflację i wysokie stopy — niekorzystne dla krypto i kosztu kredytów pod nieruchomości, a sprzyja popytowi na metale jako zabezpieczenie.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/6/hormuz-ship-attacks-surge-are-increased-oil-exports-sustainable"
+  },
+  {
+   "date": "06.10",
+   "region": "USA",
+   "title": "S&P 500 z rekordem 7 819 pkt, rentowności 10-latek spadają do 5,275%",
+   "summary": "S&P 500 wzrósł o 0,58% do 7 818,93 pkt, Nasdaq o 0,45% do 27 599,79, a Dow o 0,49% do 51 521,28. Rentowność 10-latek spadła o 3,6 pb do 5,275%, dwulatek o ponad 4 pb; FactSet podnosi szacunek wzrostu zysków w sezonie wyników do blisko 30%.",
+   "impact": "Lżejsze rentowności i rekordy akcji poprawiają apetyt na ryzyko, co sprzyja BTC/ETH i wycenie akcji w OFE; utrzymanie spadku rentowności obniżyłoby też presję na oprocentowanie kredytów.",
+   "source": "TheStreet",
+   "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
+  },
+  {
+   "date": "06.10",
+   "region": "Polska",
+   "title": "Powrót programu CPN: VAT na paliwa 8%, niższa inflacja w październiku",
+   "summary": "Po podpisaniu przez prezydenta ustawy o nadmiarowych zyskach koncernów paliwowych (ze skierowaniem jej do TK) rząd przywrócił program CPN: VAT na paliwa z 23% do 8%, akcyza niższa o 29 gr/l i ceny maksymalne niższe o ok. 1,2–1,5 zł/l. Ekonomiści szacują inflację w październiku na 3,4–3,9% wobec 4,0% we wrześniu.",
+   "impact": "Niższa inflacja zmniejsza szansę podwyżki stóp NBP w listopadzie, co łagodzi presję na raty kredytów i ceny nieruchomości, ale obniża oprocentowanie nowych lokat i obligacji indeksowanych.",
+   "source": "Rzeczpospolita",
+   "url": "https://www.rp.pl/dane-gospodarcze/art45240691-inflacja-miala-zostac-powyzej-4-proc-decyzja-prezydenta-nawrockiego-zmienia-prognozy"
+  },
+  {
+   "date": "06.10",
+   "region": "Japonia",
+   "title": "Ueda: Bank Japonii będzie dalej podnosił stopy",
+   "summary": "Prezes BoJ Kazuo Ueda zapowiedział dalsze podwyżki po wrześniowej do 1,25%, ale rynek wycenia tylko ok. 26% szans na ruch 29–30.10. USD/JPY waha się w przedziale ok. 156,5–159.",
+   "impact": "Gwałtowne umocnienie jena mogłoby wymusić zamykanie pozycji finansowanych tanim jenem, co w przeszłości uderzało w krypto i akcje; złoty i dolar mogą być przy tym zmienne.",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/analysis/the-market-is-pricing-a-boj-pause-heres-why-uedas-keep-raising-rates-could-force-a-sharp-yen-repricing-202610061823"
+  },
+  {
+   "date": "06.10",
+   "region": "Krypto",
+   "title": "BTC przy 85,6 tys. USD; likwidacje 172 mln USD i odpływ z ETF",
+   "summary": "W ciągu doby zlikwidowano pozycje lewarowane za 172,45 mln USD (longi 101,3 mln USD), a amerykańskie spot ETF na BTC miały 05.10 odpływ netto ok. 89,8 mln USD. BTC wahał się między 85 010 a 86 662 USD, pod oporem 87 000 USD, przed protokołem Fed w środę.",
+   "impact": "Odpływ z ETF i czyszczenie dźwigni oznaczają kruche odbicie BTC/ETH; protokół Fed może być impulsem w obie strony, a USDC pozostaje buforem na tę zmienność.",
+   "source": "The Crypto Times",
+   "url": "https://cryptotimes.io/2026/10/06/bitcoin-price-today-btc-holds-85500-as-172m-liquidations-etf-outflows-hit-before-fed-minutes"
+  },
+  {
+   "date": "07.10",
+   "region": "Surowce",
+   "title": "Srebro poniżej 61 USD pod presją ropy i rentowności",
+   "summary": "Srebro kosztowało 07.10 w handlu azjatyckim ok. 60,90 USD za uncję, poniżej oporu 61 USD; TD Securities wskazuje 60,71 USD jako poziom uruchamiający sprzedaż funduszy systematycznych. Wsparciem jest ok. 20% szans na podwyżkę Fed w październiku (CME FedWatch).",
+   "impact": "Srebro w portfelu pozostaje wrażliwe na wysokie rentowności i drogą ropę; zejście poniżej ok. 60,7 USD może przyspieszyć spadek, a łagodniejszy Fed by je wspierał.",
+   "source": "FXStreet",
+   "url": "https://fxstreet.com/news/silver-price-forecast-xag-usd-remains-below-6100-as-oil-prices-surge-202610070404"
+  }
+ ]
+}
